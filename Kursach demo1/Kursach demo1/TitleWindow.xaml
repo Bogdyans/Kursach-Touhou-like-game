@@ -1,0 +1,21 @@
+﻿<Window x:Class="Kursach_demo1.TitleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kursach_demo1"
+        mc:Ignorable="d"
+        Title="Курсовая работа. Барыкин Б.А." Height="570" Width="800">
+    <Grid>
+
+        <Label Content="                             по дисциплине&#xD;&#xA;&#xA;&quot;Объектно-ориентированное-программирование&quot;&#xD;&#xA;&#xD;&#xA;                                   на тему&#xD;&#xA;" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="24" Margin="142,119,0,0" HorizontalAlignment="Left" Grid.ColumnSpan="2"/>
+        <Label Content="&quot;Touhou&quot;" HorizontalAlignment="Left" Margin="326,277,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="36"/>
+        <Button Content="Посмотреть" HorizontalAlignment="Left" Margin="656,463,0,0" VerticalAlignment="Top" Height="28" Width="110" Click="Button_Click"/>
+        <Label Content="Дубна, 2023 г." HorizontalAlignment="Left" Margin="359,470,0,0" VerticalAlignment="Top" FontFamily="Times New Roman"/>
+        <Label Content="                     студент группы 1222&#xA;Барыкин Богдан Анатольевич&#xA;                           ст. преп. Пряхина Д. И.&#xA;" HorizontalAlignment="Left" Margin="537,365,0,0" VerticalAlignment="Top" Height="93" Width="237"/>
+        <Label Content="Выполнил:" HorizontalAlignment="Left" Margin="537,365,0,0" VerticalAlignment="Top" FontWeight="Bold" />
+        <Label Content="Руководитель:" HorizontalAlignment="Left" Margin="536,396,0,0" VerticalAlignment="Top" FontWeight="Bold" />
+        <Label Content="КУРСОВАЯ РАБОТА" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top" FontSize="32" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
